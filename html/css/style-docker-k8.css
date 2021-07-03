@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:  #575788;
+    animation-name: body;
+    animation-timing-function: ease-in;
+    animation-duration: 50s;
+}
+
+@keyframes body {
+    0%   {background-color: #575788;}
+    30%  {background-color: #cb7fc7;}
+    50%  {background-color: #cd8295;}
+    80%  {background-color: #149267;}
+    100% {background-color: #5c811c;}
+}
+
+#header {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+#heading {
+    background-color: #000000;
+    height: 70px;
+}
+
+#nav {
+  display: inline;
+  height: 20px;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+#main {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+}
+
+p {
+    display: inline;
+    font-size: 23px;
+    color: white;
+}
+
+img {
+   margin: 20px;
+   height: 100px;
+}
+
+#input-box {
+    width: 500px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+button {
+    color: white;
+    background-color: #000102;
+    height: 45px;
+    width: 90px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #272b30a9;
+}
+
+#output-box {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#output {
+    background: #000000;
+    height: 250px;
+    margin: 0 300px 10px 300px;
+    overflow: scroll;
+    padding: 10px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}

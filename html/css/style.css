@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background:
+    linear-gradient(
+      rgba(202, 233, 222, 0), 
+      rgba(216, 193, 193, 0)
+    ),
+    url(https://wallpaperaccess.com/full/3006316.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+#heading {
+  background-color: #000000;
+}
+
+#nav {
+  display: inline;
+  height: 20px;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+input::placeholder { 
+  color: burlywood;
+  text-align: center;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.div1{
+  text-align: center;
+}
+h1 {
+font-size: 48px;
+text-align: center;
+color: antiquewhite;
+}
+.button {
+  transition-duration: 0.4s;
+  font-size: large;
+}
+
+.button:hover {
+  font-style: italic;
+  font-size: large;
+  background-color: #4CAF50; /* Green */
+  color: rgb(228, 20, 20);
+}
+
+#output-box {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#output {
+  background: #a6bcd6;
+  height: 300px;
+  margin: 0 300px 10px 300px;
+  overscroll-behavior: auto;
+  padding: 10px;
+}
+.b1{
+  display: inline-flex;
+  height: 220px;
+  width: 500px;height: 220px;
+  padding: 50px;
+  background: linear-gradient(135deg, #ff5f6d 20%, #ffc371 80%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 45px;
+  font-weight: 500;
+  cursor: pointer; 
+  margin: 50px;
+}
+.b1:hover{
+  background: #009578;
+  color: #fff;
+}
+
+.b1:active{
+  background: #006e58;
+}
+.icon1{
+  align-items: center;
+}
+.s1{
+  text-align: center;
+  align-items: center;
+}
+ 
+.iconify{
+  margin-top: 36px;
+  background: (135deg, #ff5f6d 10%, #ffc371 80%);
+}
+.s2{
+  align-items: center;
+}
+.div2{
+  margin: 150px 0; 
+  text-align: center;
+}

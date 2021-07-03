@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/style-docker-k8.css">
+    <script src="./js/docker.js"></script>
+    <title>Docker</title>
+    <link rel="icon" href="img/docker.png">
+</head>
+<body>
+    <div id="header">
+        <div id="heading">
+            <h1>WELCOME</h1>
+        </div>
+        <div id="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="docker.html">Docker</a></li>
+                <li><a href="k8.html">Kubernetes</a></li>
+            </ul>
+        </div>
+	<div><img src="img/docker.png" alt="docker-image"></div>
+    </div>
+    <div id="main">
+        <p>[root@localhost ~]# </p>
+        <input id="input-box" required="True" type="text" 
+        placeholder="Enter Command...">
+        <button id="button" onclick="Action()">Enter</button>
+        <div id="output-box">
+            <h2>OUTPUT</h2>
+            <pre><div id="output"></div></pre>
+        </div>
+    </div>
+</body>
+</html>
